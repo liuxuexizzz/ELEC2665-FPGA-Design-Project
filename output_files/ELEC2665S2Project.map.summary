@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed May 14 02:08:08 2025
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : ELEC2665S2Project
+Top-level Entity Name : MainCode
+Family : MAX 10
+Total logic elements : 231
+    Total combinational functions : 231
+    Dedicated logic registers : 61
+Total registers : 61
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,126 @@
+# Reading D:/Quartus Prime Lite/modelsim_ase/tcl/vsim/pref.tcl
+# do ELEC2665S2Project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus Prime Lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/ClockDivider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/ClockDivider.v 
+# -- Compiling module ClockDivider
+# 
+# Top level modules:
+# 	ClockDivider
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/TimerCoreLogic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/TimerCoreLogic.v 
+# -- Compiling module TimerCoreLogic
+# 
+# Top level modules:
+# 	TimerCoreLogic
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/ProgramCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/ProgramCounter.v 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/SevenSegEncoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/SevenSegEncoder.v 
+# -- Compiling module SevenSegEncoder
+# 
+# Top level modules:
+# 	SevenSegEncoder
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/MainCode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/MainCode.v 
+# -- Compiling module MainCode
+# 
+# Top level modules:
+# 	MainCode
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/bin2bcd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/bin2bcd.v 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/bcd_to_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/bcd_to_7seg.v 
+# -- Compiling module bcd_to_7seg
+# 
+# Top level modules:
+# 	bcd_to_7seg
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/MainCode_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:35:41 on May 13,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project" D:/FPGATemp/QuartusProject/ELEC2665S2Project/MainCode_tb.v 
+# -- Compiling module MainCode_tb
+# 
+# Top level modules:
+# 	MainCode_tb
+# End time: 01:35:41 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  MainCode_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" MainCode_tb 
+# Start time: 01:35:42 on May 13,2025
+# Loading work.MainCode_tb
+# Loading work.MainCode
+# Loading work.ClockDivider
+# Loading work.TimerCoreLogic
+# Loading work.ProgramCounter
+# Loading work.SevenSegEncoder
+# Loading work.bin2bcd
+# Loading work.bcd_to_7seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# T=0 | ModeSel=0 rst_n=0 StartStop=0 | MSBH=40 MSBL=40 LSBH=40 LSBL=40 DOT=0
+# T=100000 | ModeSel=0 rst_n=1 StartStop=0 | MSBH=40 MSBL=40 LSBH=40 LSBL=40 DOT=0
+# T=200000 | ModeSel=0 rst_n=1 StartStop=1 | MSBH=40 MSBL=40 LSBH=40 LSBL=40 DOT=0
+# T=5000090000 | ModeSel=0 rst_n=1 StartStop=1 | MSBH=40 MSBL=40 LSBH=40 LSBL=79 DOT=1
+# T=10000090000 | ModeSel=0 rst_n=1 StartStop=1 | MSBH=40 MSBL=40 LSBH=40 LSBL=79 DOT=0
+# T=15000090000 | ModeSel=0 rst_n=1 StartStop=1 | MSBH=40 MSBL=40 LSBH=40 LSBL=24 DOT=1
+# T=20000090000 | ModeSel=0 rst_n=1 StartStop=1 | MSBH=40 MSBL=40 LSBH=40 LSBL=24 DOT=0
+# T=20000200000 | ModeSel=0 rst_n=0 StartStop=0 | MSBH=40 MSBL=40 LSBH=40 LSBL=40 DOT=0
+# T=20000300000 | ModeSel=0 rst_n=1 StartStop=0 | MSBH=40 MSBL=40 LSBH=40 LSBL=40 DOT=0
+# T=20000400000 | ModeSel=1 rst_n=1 StartStop=1 | MSBH=40 MSBL=24 LSBH=40 LSBL=40 DOT=0
+# Break key hit
+# Simulation stop requested.
+# End time: 01:35:52 on May 13,2025, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

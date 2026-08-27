@@ -1,0 +1,24 @@
+module bcd_to_7seg (
+    input  wire [3:0] 	bcd,    // 待显示的 BCD 数字（0~9）
+    output wire [6:0] 	seg     // 对应的七段信号 a→g
+);
+
+    // 查找表
+    wire [6:0] converter [0:9];
+    assign converter[0] = 7'b0111111;
+    assign converter[1] = 7'b0000110;
+    assign converter[2] = 7'b1011011;
+    assign converter[3] = 7'b1001111;
+    assign converter[4] = 7'b1100110;
+    assign converter[5] = 7'b1101101;
+    assign converter[6] = 7'b1111101;
+    assign converter[7] = 7'b0000111;
+    assign converter[8] = 7'b1111111;
+    assign converter[9] = 7'b1101111;
+
+    // 根据索引输出
+    assign seg = (bcd <= 4'd9) 
+                 ? converter[bcd] 
+                 : 7'b0000000;    // 超出范围时熄灭所有段
+
+endmodule

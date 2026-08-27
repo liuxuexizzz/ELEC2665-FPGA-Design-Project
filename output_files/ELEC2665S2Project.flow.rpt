@@ -1,0 +1,167 @@
+Flow report for ELEC2665S2Project
+Wed May 14 02:08:21 2025
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed May 14 02:08:21 2025       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                      ; ELEC2665S2Project                           ;
+; Top-level Entity Name              ; MainCode                                    ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 232 / 49,760 ( < 1 % )                      ;
+;     Total combinational functions  ; 232 / 49,760 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 61 / 49,760 ( < 1 % )                       ;
+; Total registers                    ; 61                                          ;
+; Total pins                         ; 33 / 360 ( 9 % )                            ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/14/2025 02:08:01 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ELEC2665S2Project   ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                     ;
++--------------------------------------+----------------------------------------+-------------------+-------------+--------------------+
+; Assignment Name                      ; Value                                  ; Default Value     ; Entity Name ; Section Id         ;
++--------------------------------------+----------------------------------------+-------------------+-------------+--------------------+
+; COMPILER_SIGNATURE_ID                ; 9413560588541.174715968104916          ; --                ; --          ; --                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; ProgramCounter_tb  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; bcd_to_7seg_tb     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; TimerCoreLogic_tb  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; SevenSegEncoder_tb ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; MainCode_tb        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; ClockDivider_tb    ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; bin2bcd_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --          ; Reverser_tb        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; MainCode_tb                            ; --                ; --          ; eda_simulation     ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --                ; --          ; eda_simulation     ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>            ; --          ; --                 ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_FILE                  ; ProgramCounter_tb.v                    ; --                ; --          ; ProgramCounter_tb  ;
+; EDA_TEST_BENCH_FILE                  ; bcd_to_7seg_tb.v                       ; --                ; --          ; bcd_to_7seg_tb     ;
+; EDA_TEST_BENCH_FILE                  ; TimerCoreLogic_tb.v                    ; --                ; --          ; TimerCoreLogic_tb  ;
+; EDA_TEST_BENCH_FILE                  ; SevenSegEncoder_tb.v                   ; --                ; --          ; SevenSegEncoder_tb ;
+; EDA_TEST_BENCH_FILE                  ; MainCode_tb.v                          ; --                ; --          ; MainCode_tb        ;
+; EDA_TEST_BENCH_FILE                  ; ClockDivider_tb.v                      ; --                ; --          ; ClockDivider_tb    ;
+; EDA_TEST_BENCH_FILE                  ; bin2bcd_tb.v                           ; --                ; --          ; bin2bcd_tb         ;
+; EDA_TEST_BENCH_FILE                  ; Reverser_tb.v                          ; --                ; --          ; Reverser_tb        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ProgramCounter_tb                      ; --                ; --          ; ProgramCounter_tb  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; bcd_to_7seg_tb                         ; --                ; --          ; bcd_to_7seg_tb     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; TimerCoreLogic_tb                      ; --                ; --          ; TimerCoreLogic_tb  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; SevenSegEncoder_tb                     ; --                ; --          ; SevenSegEncoder_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; MainCode_tb                            ; --                ; --          ; MainCode_tb        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ClockDivider_tb                        ; --                ; --          ; ClockDivider_tb    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; bin2bcd_tb                             ; --                ; --          ; bin2bcd_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Reverser_tb                            ; --                ; --          ; Reverser_tb        ;
+; EDA_TEST_BENCH_NAME                  ; ClockDivider_tb                        ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; ProgramCounter_tb                      ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; Reverser_tb                            ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; bin2bcd_tb                             ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; bcd_to_7seg_tb                         ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; SevenSegEncoder_tb                     ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; TimerCoreLogic_tb                      ; --                ; --          ; eda_simulation     ;
+; EDA_TEST_BENCH_NAME                  ; MainCode_tb                            ; --                ; --          ; eda_simulation     ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --                ; --          ; eda_simulation     ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                ; --          ; --                 ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                ; --          ; --                 ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --                ; MainCode    ; Top                ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --                ; MainCode    ; Top                ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --                ; MainCode    ; Top                ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --                ; --          ; --                 ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                ; --          ; --                 ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --                ; --          ; --                 ;
+; TOP_LEVEL_ENTITY                     ; MainCode                               ; ELEC2665S2Project ; --          ; --                 ;
++--------------------------------------+----------------------------------------+-------------------+-------------+--------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 4843 MB             ; 00:00:14                           ;
+; Fitter                    ; 00:00:05     ; 1.1                     ; 6608 MB             ; 00:00:11                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4683 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.2                     ; 4964 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4649 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:16     ; --                      ; --                  ; 00:00:29                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; JackLiuDePC      ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; JackLiuDePC      ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; JackLiuDePC      ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; JackLiuDePC      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; JackLiuDePC      ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ELEC2665S2Project -c ELEC2665S2Project
+quartus_fit --read_settings_files=off --write_settings_files=off ELEC2665S2Project -c ELEC2665S2Project
+quartus_asm --read_settings_files=off --write_settings_files=off ELEC2665S2Project -c ELEC2665S2Project
+quartus_sta ELEC2665S2Project -c ELEC2665S2Project
+quartus_eda --read_settings_files=off --write_settings_files=off ELEC2665S2Project -c ELEC2665S2Project
+
+
+

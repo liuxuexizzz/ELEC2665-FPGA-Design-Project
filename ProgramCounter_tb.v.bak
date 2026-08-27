@@ -1,0 +1,3 @@
+`timescale 1 ns / 100 ps 		//modify the parameters accordingly
+
+module ProgramCounter_tb;

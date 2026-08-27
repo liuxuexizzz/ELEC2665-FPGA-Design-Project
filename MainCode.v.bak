@@ -1,0 +1,17 @@
+module MainCode (
+
+	input Clk_50MHz,					//50MHz clock input
+	input rst_n,						//An active-low sginal to reset the module
+	input StartStop,					//A control signal to start (active) and stop (pause) the module
+	input ModeSel,						//A control signal to swich between the two modes (10s stopwatch and 2 mins timer)				
+	
+	//input Clk_100Hz, <--you can use this for your module validation
+	//input Clk_1Hz,	 <--you can use this for your module validation
+	
+	output [6:0] SevenSegLBit1,
+	output [6:0] SevenSegLBit2,
+	output [6:0] SevenSegHBit1,
+	output [6:0] SevenSegHBit2,
+	output DOT
+
+);

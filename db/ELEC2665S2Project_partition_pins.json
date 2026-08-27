@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HexMSBH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBH[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HexMSBL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBH[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HexLSBL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DOT",
+					"strict" : false
+				},
+				{
+					"name" : "ModeSel",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "StartStop",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_50MHz",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/FPGATemp/QuartusProject/ELEC2665S2Project {D:/FPGATemp/QuartusProject/ELEC2665S2Project/ClockDivider.v}
+

@@ -1,0 +1,13 @@
+module TimerCoreLogic (
+
+	//Edit your own input configuration parameters here
+	
+	input rst_n,			//Active-LOW reset signal
+	input StartStop,		//A control signal to start (active) and stop (pause) the module
+
+	
+	output [7:0] LBitBinaryOut,	//The Least Signaficant Bit (LSB) output signal in binary
+	output [7:0] HBitBinaryOut		//The Most Signaficant Bit (MSB) output signal in binary
+
+
+);

@@ -1,0 +1,8 @@
+module ClockDivider (
+
+	input CLK_50MHz, 		//50MHz clock input
+	input rst_n, 			//Active-LOW reset signal
+	output clk_100Hz,	 	//100Hz clock; You can tweak the output type accordingly.
+	output clk_1Hz			//1Hz clock; You can tweak the output type accordingly.
+
+);
